@@ -36,3 +36,34 @@ Gosoko E-commerce is a full-stack web application for an online marketplace, dev
 
    ```bash
    git clone https://github.com/denis784/Gosoko.git
+
+
+1. Navigate to the project directory:
+
+cd gosoko-ecommerce
+
+2. Install dependencies for the frontend:
+cd frontend
+npm install
+
+3. Install dependencies for the backend:
+cd ../backend
+pip install -r requirements.txt
+
+
+4. Configure the database in backend/settings.py.
+
+5. Run migrations:
+python manage.py migrate
+
+6. Start the development server:
+python manage.py runserver
+
+7. Navigate to http://localhost:3000 in your browser to access the application.
+
+Contributing
+We welcome contributions! Please follow our Contribution Guidelines to contribute to Gosoko E-commerce.
+
+License
+This project is licensed under the MIT License.
+
